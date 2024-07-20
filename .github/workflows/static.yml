@@ -37,8 +37,7 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          base_path: 'canvas-resize'
+
           # Upload entire repository
           path: '.'
       - name: Deploy to GitHub Pages
