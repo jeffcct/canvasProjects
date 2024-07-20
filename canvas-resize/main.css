@@ -1,0 +1,7 @@
+canvas { /*   The styling is to show that the canvas takes up the entire page.   */
+    background-color: red;
+
+}
+body {  /* originally the borders margin pushes the canvas object to take up more than the entire page.  */
+    margin: 0;
+}
