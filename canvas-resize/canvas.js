@@ -14,7 +14,7 @@ function initialize() {
 
 function resizeCanvas() {
     canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight * 2;    
+    canvas.height = window.innerHeight * 2;    // * 2 so that I could make sure it wasn't using the above default values.
 }
 
 initialize();
