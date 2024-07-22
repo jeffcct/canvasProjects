@@ -3,9 +3,9 @@ var canvas = document.querySelector('canvas'); // this is how to find the canvas
 canvas.width = window.innerWidth; 
 canvas.height = window.innerHeight;
 
-context = canvas.getContext('2d');
+console.log(canvas)
 
-//To make it work permanantly, we add an eventListener to check if the window size is ever changed. If it is, then we call the resizeCanvas function that fixes the width.
+//To make it update, we add an eventListener to check if the window is ever resized. If it is, then we call the resizeCanvas function that fixes the canvas size again.
 function initialize() {
     window.addEventListener('resize', resizeCanvas, false);
 
